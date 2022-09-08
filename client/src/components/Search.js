@@ -43,24 +43,7 @@ const Search = () => {
         .map((val, key) => {
           return (
             <div>
-              <table className="table table-light table-striped">
-                <thead>
-                  <tr>
-                    <th> Name</th>
-                    <th> Hair Color</th>
-                    <th> Skin Color</th>
-                    <th> Gender</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>{val.name}</td>
-                    <td>{val.hair_color}</td>
-                    <td>{val.skin_color}</td>
-                    <td>{val.gender}</td>
-                  </tr>
-                </tbody>
-              </table>
+              <p> {val.name} </p>
             </div>
           );
         })}
